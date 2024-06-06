@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --cor-de-fundo: #222831;
+  --cor-primaria: #31363F;
+  --cor-secundaria: #76ABAE;
+  --cor-terciaria: #EEEEEE;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--cor-terciaria);
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease; 
+  
+  background-image: url(./imagens/login.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+}
+
+
+.box{
+  position: absolute;
+  right: 1px;
+
+  width: 60vh;
+  height: 90vh;
+  padding: 0 175px 101px;
+  background-color: rgba(0, 0, 0, 0.17);
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.box_login_titulo{
+  margin: 3vh 5vh;
+  font-size: 2.4vh;
+  font-weight: bold;
+}
+
+.box_login{
+  margin-top: 5vh;
+  width: 60vh;
+  height: 40vh;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(70px);
+  backdrop-filter: blur(70px);
+  border-style: solid;
+  border-width: 1px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.box_logo{
+  width: 318px;
+  height: 352px;
+  margin: 1vh 1vh 1vh 15vh;
+}
+
+.box_input{
+  width: 50vh;
+  height: 6.5vh;
+  margin: 50px 50px 37px;
+
+  border-radius: 31px;
+  border: solid 1px rgba(255, 253, 253, 0.5);
+  background-color: rgba(4, 4, 4, 0.48);
+}
+
+.input{
+  background-color: transparent;
+  font-size: 24px;
+  text-align: center;
+  width: 50vh;
+  height: 6.5vh;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.botao_login{
+  width: 317px;
+  height: 80px;
+
+  margin: 1.7vh 17vh 0;
+  padding: 13px 105px 13px 106px;
+  border-radius: 31px;
+  background-color: rgba(57, 91, 100, 0.8);
+  
+  font-size: 36px;
+  color: #fff;
+}
+
+.cadastro{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2vh 12vh;
+}
+
+strong {
+  color: var(--cor-secundaria);
+}
